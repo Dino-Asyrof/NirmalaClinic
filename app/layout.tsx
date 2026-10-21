@@ -43,6 +43,10 @@ export default function RootLayout({
       <body className="antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
+
+<script src="https://cdn.botpress.cloud/webchat/v5.0/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2026/10/21/13/20261021135129-L4GNHSTN.js" defer></script>
+
       </body>
     </html>
   )
